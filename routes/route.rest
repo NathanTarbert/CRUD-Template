@@ -1,0 +1,30 @@
+Get http://localhost:3000/user
+
+###
+
+GET http://localhost:3000/user/604faa2c1046ac95d852d569
+
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "title": "Nate",
+    "content": "String",
+    "likes": "1"
+}
+
+####
+DELETE http://localhost:3000/user/604fa9ef1046ac95d852d568
+
+###
+
+PATCH http://localhost:3000/user/604fb0741c1ec48258140c7e
+Content-Type: application/json
+
+{
+    "name": "Spice",
+    "content": "New Text"
+}
